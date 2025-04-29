@@ -1,4 +1,5 @@
 {
+  // "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -28,8 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/lib/placeholder-data.ts",
-    "scripts/seed.js"
+    "app/lib/placeholder-data.ts"
   ],
   "exclude": ["node_modules"]
 }
